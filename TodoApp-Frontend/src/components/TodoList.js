@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
-
+// eslint-disable-next-line
   const [content, setContent] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,6 @@ function TodoList() {
       .get('http://localhost:4300/api/todo')
       .then(res => {
         setContent(res.data);
-        console.log(res.data);
       })
   }, [])
 
@@ -31,8 +30,6 @@ function TodoList() {
     if (!newValue.text || /^\s*$/.test(newValue.text)) {
       return;
     }
-
-    console.log(newValue.text);
 
     axios.put('http://localhost:4300/api/todo/' + todoId + "/" + newValue.text);
     window.location.reload();
@@ -55,15 +52,8 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>App that helps YOU ToDo more!</h1>
       <TodoForm onSubmit={addTodo} />
-      {/* {content.map(todo => (
-        <div className='todo-row'>
-          <div key={todo.id}>
-            {todo.description}
-          </div>
-        </div>
-      ))} */}
       <Todo
         todos={todos}
         completeTodo={completeTodo}

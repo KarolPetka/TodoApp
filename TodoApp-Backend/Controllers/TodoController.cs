@@ -41,10 +41,12 @@ namespace TodoAppBackend.Controllers
             DatabaseDelete(id);
         }
 
+        string DBconnection = "server=localhost;username=root;database=Todo;port=3306;password=root";
+
         public List<Todo> DatabaseGet()
         {
             List<Todo> todoList = new List<Todo>();
-            using(MySqlConnection connection = new MySqlConnection("server=localhost;username=root;database=Todo;port=3306;password=root"))
+            using(MySqlConnection connection = new MySqlConnection(DBconnection))
             {
                 connection.Open();
 
@@ -66,7 +68,7 @@ namespace TodoAppBackend.Controllers
 
         public void DatabaseDelete(long id)
         {
-            using (MySqlConnection connection = new MySqlConnection("server=localhost;username=root;database=Todo;port=3306;password=root"))
+            using (MySqlConnection connection = new MySqlConnection(DBconnection))
             {
                 connection.Open();
                 MySqlCommand command = new MySqlCommand("delete from todo where id = " + id, connection);
@@ -77,7 +79,7 @@ namespace TodoAppBackend.Controllers
 
         public void DatabasePut(long id, string description)
         {
-            using (MySqlConnection connection = new MySqlConnection("server=localhost;username=root;database=Todo;port=3306;password=root"))
+            using (MySqlConnection connection = new MySqlConnection(DBconnection))
             {
                 connection.Open();
                 MySqlCommand command = new MySqlCommand("update todo set description = \'" + description + "\' where id = " + id, connection);
@@ -88,7 +90,7 @@ namespace TodoAppBackend.Controllers
 
         public void DatabasePost(long id, string description)
         {
-            using (MySqlConnection connection = new MySqlConnection("server=localhost;username=root;database=Todo;port=3306;password=root"))
+            using (MySqlConnection connection = new MySqlConnection(DBconnection))
             {
                 connection.Open();
                 MySqlCommand command = new MySqlCommand("insert into todo values (" + id + ", \'" + description + "\');", connection);

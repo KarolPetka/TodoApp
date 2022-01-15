@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/TodoAppBackend.csproj": {}
+    "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/TodoAppBackend.csproj": {}
   },
   "projects": {
-    "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/TodoAppBackend.csproj": {
+    "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/TodoAppBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/TodoAppBackend.csproj",
+        "projectUniqueName": "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/TodoAppBackend.csproj",
         "projectName": "TodoAppBackend",
-        "projectPath": "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/TodoAppBackend.csproj",
+        "projectPath": "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/TodoAppBackend.csproj",
         "packagesPath": "/Users/karolpetka/.nuget/packages/",
-        "outputPath": "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/obj/",
+        "outputPath": "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/karolpetka/.config/NuGet/NuGet.Config"

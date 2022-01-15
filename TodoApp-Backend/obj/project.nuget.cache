@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ftqTdHg9tI14EZ3//JKc1QayY6gU5R0a7t7vV6GZ2lmYDDXQkRdx5vhiWbfcc3WI2djMMVWaYa5jztsWiWB23A==",
+  "dgSpecHash": "wuuaDjF+d3jvs/BbcUR9vqZFE20fAZeuE11y8wIPdKQnWzosXs1EEo7hfuhL/muKG3Gpqb6Dw/XrsLOb0upjhQ==",
   "success": true,
-  "projectFilePath": "/Users/karolpetka/Desktop/Lab5_WebApi/EmployeeApi/TodoAppBackend.csproj",
+  "projectFilePath": "/Users/karolpetka/Desktop/Lab5_WebApi/TodoApp/TodoApp-Backend/TodoAppBackend.csproj",
   "expectedPackageFiles": [
     "/Users/karolpetka/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/Users/karolpetka/.nuget/packages/google.protobuf/3.14.0/google.protobuf.3.14.0.nupkg.sha512",

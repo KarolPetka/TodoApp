@@ -36,6 +36,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
 
   return content.map(todo => (
     <div className={todo.isComplete ? 'todo-row complete' : 'todo-row'} key={todo.id}>
+      <div></div>
       <div key={todo.id}>
         {todo.description}
       </div>
@@ -51,24 +52,6 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
       </div>
     </div>
   ));
-
-  // return todos.map((todo, index) => (
-  //   <div className={todo.isComplete ? 'todo-row complete' : 'todo-row'} key={index}>
-  //     <div key={todo.id} onClick={() => completeTodo(todo.id)}>
-  //       {todo.text}
-  //     </div>
-  //     <div className='icons'>
-  //       <RiCloseCircleLine
-  //         onClick={() => removeTodo(todo.id)}
-  //         className='delete-icon'
-  //       />
-  //       <TiEdit
-  //         onClick={() => setEdit({ id: todo.id, value: todo.text })}
-  //         className='edit-icon'
-  //       />
-  //     </div>
-  //   </div>
-  // ));
 };
 
 export default Todo;

@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{D00A1427-D8E6-4DEE-B1AF-30A0B78819EE}|TodoApi">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Todo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/TodoController.cs">
     <Files>
       <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
       <File FileName="appsettings.Development.json" />
-      <File FileName="Program.cs" Line="21" Column="1" />
-      <File FileName="Startup.cs" Line="18" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
       <File FileName="appsettings.json" />
-      <File FileName="Data/DatabaseInitializer.cs" Line="56" Column="1" />
       <File FileName="Models/Todo.cs" Line="1" Column="1" />
       <File FileName="Models/TodoContext.cs" Line="14" Column="2" />
-      <File FileName="Controllers/TodoController.cs" Line="130" Column="1" />
+      <File FileName="Controllers/TodoController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TodoAppBackend" expanded="True">
             <Node name="TodoAppBackend" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Todo.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="TodoController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>
