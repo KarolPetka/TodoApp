@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{D00A1427-D8E6-4DEE-B1AF-30A0B78819EE}|TodoApi">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Employee.cs">
+    <Files>
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="19" Column="1" />
+      <File FileName="Program.cs" Line="15" Column="10" />
+      <File FileName="Startup.cs" Line="9" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Controllers/EmployeeController.cs" Line="113" Column="1" />
+      <File FileName="Models/EmployeeContext.cs" Line="1" Column="1" />
+      <File FileName="Models/Employee.cs" Line="4" Column="26" />
+      <File FileName="Data/DatabaseInitializer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="todo-app-backend" expanded="True" selected="True">
+            <Node name="EmployeeApi" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.todo-app-backend PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
